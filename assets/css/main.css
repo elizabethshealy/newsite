@@ -90,6 +90,27 @@ a:after {
    Wrap Sections
    ========================================================================== */
 
+#navbar-top {
+	background-color: red;
+	margin-top: -10px;
+	padding-top:120px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 700px;
+	width: 100%;
+
+   -webkit-background-size: 100%;
+   -moz-background-size: 100%;
+   -o-background-size: 100%;
+   background-size: 100%;
+
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
 #headerwrap {
 	background: url(../img/ebeth2.png) no-repeat center top;
 	margin-top: -10px;
@@ -377,5 +398,15 @@ a:after {
 
 #gn-menu li {
   float: right;
+  margin-right: 0;
   display: inline-block;
+}
+
+.icon-bottom, .icon-bottom-right {
+  font-size: 40pt;
+  color: grey;
+}
+
+.footer-text {
+  text-align: center;
 }
