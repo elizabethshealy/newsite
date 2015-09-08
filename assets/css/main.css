@@ -368,3 +368,14 @@ a:after {
 .img-responsive {
   height: 250px;
 }
+
+.modal-body img {
+  margin: auto;
+  max-width: 100%;
+  display: block;
+}
+
+#gn-menu li {
+  float: right;
+  display: inline-block;
+}
